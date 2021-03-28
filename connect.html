@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Connect with Cake Beat</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+      <link href="css/style.css" rel="stylesheet">
+   </head>
+   <body>
+      <!-- Navigation -->
+      <header>
+         <nav  class="navbar navbar-expand-md fixed-top w-100" >
+            <div class="container-fluid">
+               <a class="logo navbar-brand ml-2" id="logo1" href="#">Cake.Beat</a> 
+               <button class="navbar-toggler d-lg-none justify-content-end navbar-light custom-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                  aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon my-toggler"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarResponsive">
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item"> 
+                        <a class="nav-link" href="index.html">Home</a>
+                     </li>
+                     <li class="nav-item"> 
+                        <a class="nav-link" href="ourWork.html">Our Work</a>
+                     </li>
+                     <li class="nav-item"> 
+                        <a class="nav-link" href="about.html">About Us</a>
+                     </li>
+                     <li class="nav-item"> 
+                        <a class="nav-link" href="connect.html">Connect</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <!--- Connect -->
+      <div id="connect" class="container-fluid padding">
+         <div class="row text-center padding">
+            <div class="col-12">
+               <h2>Connect with us</h2>
+               <p class="col-md-12 pl-0">Send us a message for feedback or inquiries and find us by clicking on the links below </p>
+            </div>
+            <div id="contact" class="contact container-fluid py-8 thing">
+               <div class="row justify-content-center pt-2 " data-aos="fade-up" data-aos-duration="700">
+                  <div class="col-md-5 mx-4 mx-md-0">
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46186.936124246975!2d-79.41418682801542!3d43.65475270487651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb34d27310bd%3A0xba15d20622070393!2sDowntown%20Toronto%2C%20Toronto%2C%20ON!5e0!3m2!1sen!2sca!4v1616900095386!5m2!1sen!2sca" width="40" height="400"  class="col-md-11 px-0 mx-2 mx-md-0 mb-3" allowfullscreen></iframe>
+                  </div>
+                  <div class="col-10 col-md-6 wow animated fadeInRight" data-wow-delay=".2s">
+                     <form class="shake" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+                        <!-- Name -->
+                        <div class="form-group label-floating">
+                           <label class="control-label" for="name"></label>
+                           <input class="form-control" id="name" type="text" name="name" placeholder="Your name" required data-error="Please enter your name">
+                           <div class="help-block with-errors"></div>
+                        </div>
+                        <!-- email -->
+                        <div class="form-group label-floating">
+                           <label class="control-label" for="email"></label>
+                           <input class="form-control" id="email" type="email" name="email" placeholder="Your email"  required data-error="Please enter your Email">
+                           <div class="help-block with-errors"></div>
+                        </div>
+                        <!-- Subject -->
+                        <div class="form-group label-floating">
+                           <label class="control-label" for="msg_subject"></label>
+                           <input class="form-control" id="msg_subject" type="text" name="subject" placeholder="Subject"  required data-error="Please enter your message subject">
+                           <div class="help-block with-errors"></div>
+                        </div>
+                        <!-- Message -->
+                        <div class="form-group label-floating">
+                           <label for="message" class="control-label"></label>
+                           <textarea class="form-control" rows="3" id="message" name="message" placeholder="Your message" required data-error="Write your message"></textarea>
+                           <div class="help-block with-errors"></div>
+                        </div>
+                        <!-- Form Submit -->
+                        <div class="form-submit mt-4 offset-md-9 ">
+                           <button class="btn btn-primary" type="submit" id="form-submit">Send Message</button>
+                           <div id="msgSubmit" class="h3 text-center hidden "></div>
+                           <div class="clearfix"></div>
+                        </div>
+                     </form>
+                  </div>
+                  <!-- Social -->
+                  <div class="col-12 social padding">
+                     <a href="https://www.facebook.com/" target="_blank"> <i class="fab fa-facebook"></i></a>
+                     <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i></a> 
+                     <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--- Footer -->
+      <footer>
+         <div class="container-fluid padding">
+            <div class="row text-center">
+               <div class="col-md-4">
+                  <hr class="light">
+                  <h5>Contact Info</h5>
+                  <hr class="light">
+                  <p>Call: 905-782-0000</p>
+                  <p>Email: email@cakebeat.com</p>
+                  <p>Whats app: 647 782 0000</p>
+               </div>
+               <div class="col-md-4">
+                  <hr class="light">
+                  <h5>Our hours</h5>
+                  <hr class="light">
+                  <p>Monday - Friday: 9am - 8pm</p>
+                  <p>Saturday: 11am - 4pm</p>
+                  <p>Sunday: Closed</p>
+               </div>
+               <div class="col-md-4">
+                  <hr class="light">
+                  <h5>Locations</h5>
+                  <hr class="light">
+                  <p>Brampton</p>
+                  <p>Mississauga</p>
+                  <p>Toronto</p>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </body>
+</html>

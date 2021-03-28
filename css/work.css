@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+html, body {
+height: 100%;
+width: 100%; 
+font-family:'Poppins', sans-serif;
+color: #222;
+scroll-behavior: smooth;
+}
+header nav {
+background-color: #f1d493;
+background-size: cover;
+}
+#logo1 {
+font-family: "Everglow-web",script,Summer Vibes;
+font-style: italic;
+font-size: 3.2em;
+color: #1072c2;
+font-weight: bold;  ;
+text-shadow:  5px 2px #9bd3de;
+padding-top: 
+}
+#avatar1{
+border: 2px solid #212529;
+box-shadow: 5px 5px 5px 5px #d5d5d5;
+}
+.navbar {
+padding: .1rem;
+}
+.navbar-nav li {
+padding-right: 40px;
+}
+.nav-link {
+font-size: 1.3em !important;
+color: #1072c2;
+font-weight: bold;
+text-shadow: 0 0 4px #d5d5d5;
+font-family: 'Courier New';
+} 
+.nav-link:hover{
+box-shadow:   6px 6px #66afbd;
+font-weight: 600;
+transform: translateX(5%);
+background-color: #9bd3de;
+}
+footer p {
+font-size: .8em;
+}
+.fancybox img{
+width: 90%;
+height: 70%;
+/*  box-shadow:   3px 3px #708490; 
+background-color: #041e34;*/
+}
+.fancybox img:hover{
+transform: scale(1.05);
+transform: translateZ(2%);
+box-shadow:   6px 3px #66afbd;
+font-weight: 600;
+filter: brightness(107%);
+f
+}
+.desc{
+font-family: 'Caveat';
+font-size: 1.8em;
+background-color: #9bd3de;
+}
+#pdesc{
+font-family: 'Caveat';
+font-size: 2.8em;
+}
+.desc:hover{
+font-size: 2em;
+}
+footer{
+background-color: #f1d493;
+color: #2f2f0f;
+box-shadow: 5px 5px 5px 5px #d5d5d5;
+}
+h2{
+padding-top: 8rem;
+}
+#work{
+/*background-image: url(../images/pexels13.jpg);*/
+background-color: #ffffff;
+background-size: contain;
+background-size: 100%;
+background-repeat: repeat;
+filter: brightness(102%);
+}
+header .custom-toggler.navbar-toggler {
+border: 1.5px solid #727272;
+border-radius: 4px;
+box-shadow:   3px 3px #66afbd;
+}
+header .custom-toggler .navbar-toggler-icon {
+}
+/*---Media Queries --*/
+@media (max-width: 992px) {
+.fancybox img{
+width: 100%;
+height: 75%;
+padding: .1rem;
+}
+.nav-link {
+font-size: 1.2em !important;
+color: #1072c2;
+font-weight: bold;
+text-shadow: 0 0 4px #d5d5d5;
+font-family: 'Courier New';
+} 
+.navbar-nav li {
+padding-right: 20px;
+}
+#logo1 {
+font-size: 2.6em;
+}
+}
+@media (max-width: 768px) {
+.fancybox img{
+width: 80%;
+height: 75%;
+padding: .1rem;
+}
+.nav-link {
+font-size: 1.2em !important;
+color: #1072c2;
+font-weight: bold;
+text-shadow: 0 0 4px #d5d5d5;
+font-family: 'Courier New';
+} 
+.navbar-nav li {
+padding-right: 20px;
+}
+#logo1 {
+font-size: 2.7em;
+}
+}
+@media (max-width: 576px) {
+.fancybox img{
+width: 70%;
+height: 70%;
+padding: .1rem;
+}
+#logo1 {
+font-size: 2.2em;
+}
+}
