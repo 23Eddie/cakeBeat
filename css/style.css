@@ -39,7 +39,7 @@ box-shadow:   3px 3px #66afbd;
 header .custom-toggler .navbar-toggler-icon {
 }
 #slides{
-
+background-color: #f1d493;
 }
 .carousel-inner img{
 width: 1000px; 
@@ -57,7 +57,7 @@ transform: translateY(-50%);
 font-family: "Everglow-web",script,Summer Vibes;
 font-size: 5rem;
 color: #1072c2; 
-text-shadow:  2px 4px 6px #131111;
+text-shadow:   4px 2px #ffffff;
 }
 .carousel-caption h3 {
 font-size: 200%; 
