@@ -56,7 +56,8 @@ transform: translateY(-50%);
 .carousel-caption h1 {
 font-family: "Everglow-web",script,Summer Vibes;
 font-size: 5rem;
-color: #1072c2; 
+color: #642b2a; 
+opacity: 0.8;
 text-shadow:   4px 2px #ffffff;
 }
 .carousel-caption h3 {
@@ -312,7 +313,7 @@ font-weight: lighter;
 font-style: italic;
 }
 #contact label {
-font-weight: 600;
+font-weight: 500;
 }
 iframe {
 border: 2px solid #01001fc4;
@@ -325,6 +326,6 @@ size: 80%;
 padding-right: .5rem;
 padding-left: .5rem;
 }
-h2{
+h1{
 padding-top: 6rem;
 }
